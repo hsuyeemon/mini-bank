@@ -6,6 +6,8 @@
         "outDir": "src" ,
         "sourceMap": true,
         "noImplicitAny": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
     },
     "include": ["./src/**/*"]
 }

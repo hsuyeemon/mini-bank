@@ -14,6 +14,8 @@ app.use(bodyParser.json());
 const server = http.createServer(app);
 server.listen( 8080 , ()=> console.log("Server running on http://localhost:8080"));
 
+
+// TODO : To find ways to read from .env file
 ///const MONGO_URL = process.env.DATABASE_URL;
 //console.log(MONGO_URL)
 
