@@ -16,3 +16,5 @@ export const createUser = (values : Record<string,any>) => {
 
 
 export const getUserByName = (username: string) => UserModel.findOne({ username });
+
+export const updateUserById = (id: string, values: Record<string, any>) => UserModel.findByIdAndUpdate(id, values);
